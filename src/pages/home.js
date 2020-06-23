@@ -1,30 +1,23 @@
-import React, { Component, Typography } from "react";
-import Grid from "@material-ui/core/Grid";
-import PropTypes from "prop-types";
-import withStyles from "@material-ui/core/styles/withStyles";
-//import profile
-import { connnect, connect } from "react-redux";
-import { getChats } from "../components/redux/actions/dataActions";
+import React, { Component } from 'react'
+import Typography from '@material-ui/core/Typography'
 const styles = (theme) => ({
-  ...theme.spreadThis,
-});
+  ...theme.spreadThis
+})
 export class home extends Component {
+  
   render() {
-    const { classes } = this.props;
     return (
-      <div className="container">
-        <Grid container>
-         
-        </Grid>
+      <div>
+        <h1>
+          " "
+        </h1>
+        <Typography variant="h1">
+         Welcome to Chat Around the World!
+        </Typography>
       </div>
-    );
+    )
   }
 }
-home.propTypes = {
-  classes: PropTypes.object.isRequired,
-  UI: PropTypes.object.isRequired,
-};
-const mapStateToProps = (state) => ({
-  UI: PropTypes.object.isRequired,
-});
-export default home;
+
+export default home
+

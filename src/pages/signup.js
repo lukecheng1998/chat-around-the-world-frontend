@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 export class signup extends Component {
     render() {
         return (
-            <p>Signup Page</p>
+            <div>
+                <h1>" "</h1>
+                <h1>Sign Up Page</h1>
+            </div>
         )
     }
 }
