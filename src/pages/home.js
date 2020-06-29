@@ -11,8 +11,8 @@ export class home extends Component {
         <h1>
           " "
         </h1>
-        <Typography variant="h1">
-         Welcome to Chat Around the World!
+        <Typography variant="h1" align="center">
+         Chat Around the World!
         </Typography>
       </div>
     )
